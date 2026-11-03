@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the WtE1000-Synthetic benchmark if you use this artifact."
+title: "WtE1000-Synthetic: A Statistics-Matched Synthetic BOM Benchmark"
+type: dataset
+version: 1.0.0
+authors:
+  - name: "WtE1000-Synthetic contributors"
+license: CC0-1.0
+abstract: >-
+  A fully synthetic BOM/DAG, collaborator mapping, workload catalog and
+  deterministic payload generator matching the published aggregate WtE1000
+  statistics. The package does not contain confidential industrial data
+  or reproduce the original engineering semantics or system runtimes.

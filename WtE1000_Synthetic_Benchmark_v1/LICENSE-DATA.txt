@@ -1,0 +1,12 @@
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, the WtE1000-Synthetic contributors waive
+copyright and related rights in the independently generated synthetic data
+and benchmark configuration under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Software is separately licensed under MIT (LICENSE-CODE.txt).
+The original manuscript, confidential industrial documents and real BOM
+are not included in this dedication.
