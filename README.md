@@ -1,1 +1,0 @@
-# WtE1000_Synthetic_Benchmark_v1
