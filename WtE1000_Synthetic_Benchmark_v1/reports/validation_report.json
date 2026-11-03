@@ -1,0 +1,93 @@
+{
+  "additional_synthetic_properties": {
+    "confirmation_microbenchmark_sizes": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      52
+    ],
+    "edges": 18974,
+    "local_max_affected_spcs": 9,
+    "local_max_level_span": 6,
+    "local_max_visited_nodes": 282,
+    "minimum_page_bytes": 4096,
+    "modification_requests": 1000,
+    "shared_leaves": 412
+  },
+  "all_checks_passed": true,
+  "check_groups": [
+    "Shipped-file SHA-256 and byte counts",
+    "Unique identifiers and foreign keys",
+    "Root, reachability, acyclicity and primary tree",
+    "Independently recomputed levels and structural leaves",
+    "Discipline, owner, entity and page mappings",
+    "Exact page count, payload volume and page-size limits",
+    "Reference workload results recomputed by traversal",
+    "Ledger write and query operation counts"
+  ],
+  "limitations": [
+    "Distributional choices are synthetic assumptions, not estimated industrial distributions.",
+    "272 GB describes logical unencrypted payload bytes; payload files are generated on demand.",
+    "This validation does not reproduce or certify manuscript runtime measurements."
+  ],
+  "manifest_sha256_checked": true,
+  "profile_conventions": {
+    "GB_bytes": 1000000000,
+    "MB_bytes": 1000000,
+    "reported_approximate_counts_used_as_exact_synthetic_targets": true,
+    "root_level": 1
+  },
+  "published_profile": [
+    {
+      "matched": true,
+      "metric": "nodes",
+      "observed": 18563,
+      "target": 18563
+    },
+    {
+      "matched": true,
+      "metric": "leaf_entities",
+      "observed": 4116,
+      "target": 4116
+    },
+    {
+      "matched": true,
+      "metric": "max_hierarchical_levels",
+      "observed": 19,
+      "target": 19
+    },
+    {
+      "matched": true,
+      "metric": "disciplines",
+      "observed": 9,
+      "target": 9
+    },
+    {
+      "matched": true,
+      "metric": "spcs",
+      "observed": 52,
+      "target": 52
+    },
+    {
+      "matched": true,
+      "metric": "drawing_page_records",
+      "observed": 12820,
+      "target": 12820
+    },
+    {
+      "matched": true,
+      "metric": "logical_payload_bytes",
+      "observed": 272000000000,
+      "target": 272000000000
+    },
+    {
+      "matched": true,
+      "metric": "maximum_page_bytes",
+      "observed": 280000000,
+      "target": 280000000
+    }
+  ],
+  "validator_version": "1.0.0"
+}

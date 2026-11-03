@@ -1,0 +1,22 @@
+{
+  "benchmark_scope": "Descendant traversal from explicitly supplied affected roots and SPC deduplication only",
+  "dataset_seed": 20261102,
+  "excluded": [
+    "Engineering-semantic selection of affected ancestor roots",
+    "Encryption, signatures, chameleon hashes and threshold reconstruction",
+    "Blockchain, network transmission and human approval"
+  ],
+  "interpretation": "These are new reference-traversal measurements on synthetic metadata, not the manuscript's engineering-case runtimes.",
+  "machine": "x86_64",
+  "maximum_affected_spcs": 9,
+  "maximum_visited_nodes": 282,
+  "mean_microseconds": 19.87524,
+  "median_microseconds": 5.031,
+  "mismatches": 0,
+  "p95_microseconds": 61.591,
+  "platform": "Linux",
+  "python_version": "3.12.14",
+  "repeats": 5,
+  "requests_per_repeat": 1000,
+  "total_checked_requests": 5000
+}

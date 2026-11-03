@@ -1,0 +1,9 @@
+metric,target,observed,matched
+nodes,18563,18563,True
+leaf_entities,4116,4116,True
+max_hierarchical_levels,19,19,True
+disciplines,9,9,True
+spcs,52,52,True
+drawing_page_records,12820,12820,True
+logical_payload_bytes,272000000000,272000000000,True
+maximum_page_bytes,280000000,280000000,True
