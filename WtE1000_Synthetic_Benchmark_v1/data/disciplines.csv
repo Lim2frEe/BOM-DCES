@@ -1,0 +1,10 @@
+discipline_id,name_en,name_zh
+D01,Process,工艺
+D02,Architecture,建筑
+D03,Structure,结构
+D04,Equipment,设备
+D05,Fire protection,消防
+D06,HVAC,暖通
+D07,Water supply and drainage,给排水
+D08,Electrical,电气
+D09,Instrumentation,仪控
